@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(to bottom,purple, rebeccapurple,pink);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+img{
+    display: block;
+    padding:0;
+    margin: 0;
+}
+
+.Maindiv{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    justify-content: center;
+}
+
+input{
+    background-color: rgb(192, 99, 114);
+    border: none;
+    border-bottom: 1px solid black;
+    width: 14rem;
+    
+}
+
+label{
+    color: white;
+}
+
+.Div2{
+    background-color: rgb(192, 99, 114);
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+.Submit{
+    background-color: pink;
+    border-radius: 2rem;
+    width: 6rem;
+    height:1.5rem;
+    border: none;
+    margin-top: 1rem;
+}
